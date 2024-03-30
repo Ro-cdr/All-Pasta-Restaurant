@@ -2,18 +2,31 @@ header {
     background-color: #186F65;
 }
 
+p {
+    font-size: 1.3rem;
+}
+
 .btn-order {
     background-color: #B2533E;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 footer {
     background-color: #B5CB99;
 }
 
+.carousel-item {
+    width: 100%;
+    height: 70vh;
+}
 
-/*
-Paleta
-https://colorhunt.co/palette/186f65b5cb99fce09bb2533e
-*/
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption h1, .carousel-caption p {
+    text-shadow: 1px 1px gray;
+}
