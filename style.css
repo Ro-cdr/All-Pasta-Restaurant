@@ -1,4 +1,4 @@
-header {
+header, footer {
     background-color: #186F65;
 }
 
@@ -12,13 +12,9 @@ p {
     font-weight: 600;
 }
 
-footer {
-    background-color: #B5CB99;
-}
-
 .carousel-item {
     width: 100%;
-    height: 70vh;
+    height: 90vh;
 }
 
 .carousel-item img {
@@ -29,4 +25,31 @@ footer {
 
 .carousel-caption h1, .carousel-caption p {
     text-shadow: 1px 1px gray;
+}
+
+.img-container {
+    padding: 0;
+    height: 55vh;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-container-left {
+    background-color: #FFFCE7;
+}
+
+.card-container-left h2, .card-container-left p {
+    color: #186F65;
+}
+
+.card-container-right {
+    background-color: #2B8D6F;
+}
+
+.card-container-right h2, .card-container-right p {
+    color: whitesmoke;
 }
